@@ -20,16 +20,15 @@ app.use(morgan('short', {
 }))
 
 //Set up API routes
+// Create a simple html for the main page
 app.get('', function (req, res) { res.sendFile(path.join(__dirname, 'assets/index.html')); });
 app.use('/api/user', authRoutes);
 app.use('/api/movies', moviesRoutes);
 
-//404 Error route as a catch-all
-app.use((req, res, next) => {
-    res.status(404).send("Error 404 - Resource not found");
-});
 
 //Set default port to serve app on
 const port = process.env.PORT || 3000;
 
 app.listen(port, console.log(`App running on port: ${port}`));
+
+

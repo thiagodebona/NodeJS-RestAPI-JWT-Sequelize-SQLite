@@ -4,7 +4,10 @@ PS: **Postman request collection** can be found in the folder postman
 
 Used technolgies: Nodejs, JWT Auth, Sequelize(ORM), Sqlite
 
-implementing JWT authentication with Express, Sequelize and SQLite3.
++ Global error handling
++ General Logs
++ Request logs
++ Audit table
 
 ## To run locally
 + `npm install --force`
