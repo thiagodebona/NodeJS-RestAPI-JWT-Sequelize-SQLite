@@ -1,0 +1,20 @@
+{
+  "development": {
+    "dialect": "sqlite",
+    "storage": "./database.sqlite3",
+    "TOKEN_SECRET": "2RBREFTRGFhe0RLSikmKEFTUERIT0lQI",
+    "logging": true
+  },
+  "test": {
+    "dialect": "sqlite",
+    "storage": ":memory",
+    "TOKEN_SECRET": "2RBREFTRGFhe0RLSikmKEFTUERIT0lQI",
+    "logging": true
+  },
+  "production": {
+    "dialect": "sqlite",
+    "storage": "./database.sqlite3",
+    "TOKEN_SECRET": "2RBREFTRGFhe0RLSikmKEFTUERIT0lQI",
+    "logging": false
+  }
+}
