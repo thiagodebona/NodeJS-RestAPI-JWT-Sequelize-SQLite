@@ -8,7 +8,11 @@ implementing JWT authentication with Express, Sequelize and SQLite3.
 
 ## To run locally
 + `npm install --force`
-+ `npx sequelize db:migrate` and `npx sequelize db:seed:all`
+
++ This repository comes with a pre configured database
++ Run this only if you need to recreate the db, don't forget to delet ethe **database.sqlite3** 
+  + `npx sequelize db:migrate` and `npx sequelize db:seed:all`
+
 + `npm start` to start server on localhost:3000
 
 ## Registering a new user in the data base
