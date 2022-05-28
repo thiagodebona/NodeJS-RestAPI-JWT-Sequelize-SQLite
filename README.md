@@ -1,4 +1,4 @@
-** Test app for interview ** 
+**Simple NodeJS Rest API using JWT authentication and sequelize as ORM for SQLite db** 
 
 PS: **Postman request collection** can be found in the folder postman
 
