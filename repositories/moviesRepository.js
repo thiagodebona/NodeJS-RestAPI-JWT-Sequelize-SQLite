@@ -3,7 +3,6 @@ const { request } = require("express");
 const inoe = require("isnullorempty");
 const { pushNewAuditChange } = require('../repositories/auditRepository');
 const { insertValidation, updateValidation } = require('../validations/movieValidation');
-// represents the jpa layer to fetch data from db
 const Movies = require("../models").Movies;
 
 const getAllMovies = async (req, res) => {

@@ -14,11 +14,13 @@ const moviesRoutes = require('./routes/movies');
 const app = express();
 app.use(express.json());
 
+// Logging requests
 app.use(morgan('short', {
     stream: fs.createWriteStream(path.join(__dirname, 'logs/requests.log'), { flags: 'a' })
 }))
 
 //Set up API routes
+app.get('', function (req, res) { res.sendFile(path.join(__dirname, 'assets/index.html')); });
 app.use('/api/user', authRoutes);
 app.use('/api/movies', moviesRoutes);
 
