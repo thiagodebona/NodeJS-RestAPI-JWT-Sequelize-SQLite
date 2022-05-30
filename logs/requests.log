@@ -1,0 +1,8 @@
+::1 - GET / HTTP/1.1 304 - - 8.701 ms
+::1 - GET /favicon.ico HTTP/1.1 404 150 - 5.974 ms
+::1 - GET /api/movies/ HTTP/1.1 401 181 - 3.924 ms
+::1 - POST /api/user/login HTTP/1.1 200 245 - 229.878 ms
+::1 - GET /api/movies/3 HTTP/1.1 200 248 - 14575.807 ms
+::1 - GET /api/movies HTTP/1.1 200 628 - 10.145 ms
+::1 - GET /api/movies HTTP/1.1 200 628 - 10.112 ms
+::1 - POST /api/user/login HTTP/1.1 200 245 - 126.200 ms

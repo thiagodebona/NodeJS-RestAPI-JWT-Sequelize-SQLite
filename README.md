@@ -18,6 +18,8 @@ Used technolgies: Nodejs, JWT Auth, Sequelize(ORM), Sqlite
 
 + `npm start` to start server on localhost:3000
 
+![Postman collection](https://i.ibb.co/PTYMPGY/Captura-de-tela-2022-05-30-052807.png)
+
 ## Registering a new user in the data base
  + POST `/api/user/register`
  + Request body
